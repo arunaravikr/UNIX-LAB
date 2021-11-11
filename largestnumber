@@ -1,0 +1,14 @@
+echo "Enter the 3 numbers:"
+read x
+read y
+read z
+if [[x>y]&&[x>z]]
+then 
+ echo "$x is the largest number"
+elif [[y>x]&&[y>z]]
+then 
+ echo "$y is the largest number"
+else 
+ echo "$z is the largest number"
+fi
+
