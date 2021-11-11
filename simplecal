@@ -1,0 +1,16 @@
+echo Enter any 2 numbers
+read a
+read b
+echo Enter your choice
+echo 1.add
+echo 2.sub
+echo 3.mul
+echo 4.div
+read ch
+case $ch in
+1)echo Addition=$((a+b|bc));;
+2)echo Subtraction=$((a-b|bc));;
+3)echo Multiply=$((a*b|bc));;
+4)echo divide=$((a/b|bc));;
+esac
+

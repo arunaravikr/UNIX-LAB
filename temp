@@ -1,0 +1,5 @@
+
+echo Enter the temp in degree F:
+read temp
+c=$( echo "scale=2;(5/9)*($temp-32)"|bc )
+echo Temp in degree C=$c
